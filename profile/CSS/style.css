@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Mulish&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #efefef;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #dfe3eaf5;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav a {
+    cursor: pointer;
+}
+
+.logo {
+    width: 180px;
+    margin-right: 45px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-user-icon img {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.nav-user-icon {
+    margin: 10px
+}
+
+.search-box {
+    background: rgb(255, 255, 255);
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search-box img {
+    width: 18px;
+}
+
+.search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+
+}
+
+.online {
+    position: relative;
+}
+
+.online::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background: #41db41;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+
+.left-sidebar {
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: self-start;
+
+}
+
+
+.left-profile {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+.left-profile img {
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.left-profile p {
+    /* margin-top: 5px;
+    margin-bottom: -5px;
+    font-size: 12px; */
+
+
+
+    left: 88px;
+    top: 141px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #9298A8;
+}
+
+.left-profile h4 {
+
+    left: 6.11%;
+    right: 82.5%;
+    top: 5.57%;
+    bottom: 92.87%;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #363C4E;
+}
+
+.right-sidebar {
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: self-start;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #626262;
+
+
+}
+
+.main-content {
+    flex-basis: 47%;
+}
+
+.events h6 {
+    margin: 25px 0;
+    color: #626262;
+    font-weight: 500;
+}
+
+.left-profile,
+.events {
+    padding: 20px;
+    border-bottom: 1px solid rgba(87, 77, 77, 0.754);
+}
+
+.shortcut-links img {
+    width: 50px;
+    border-radius: 5%;
+    margin-right: 15px;
+}
+
+.shortcut-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+}
+
+.sidebar-title {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.sidebar-title h4 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #363C4E;
+}
+
+.sidebar-title a {
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
+}
+
+.online-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.online-list .online img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.online-list .online {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.online-list .online::after {
+    top: unset;
+    bottom: 5px;
+}
+
+.write-post-content {
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile p {
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: #626262;
+}
+
+.post-input-content {
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.post-input-content textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+
+.add-post-links {
+    display: flex;
+    margin-top: 10px;
+}
+
+.add-post-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+
+}
+
+.add-post-links img {
+    width: 20px;
+    margin-right: 10px;
+    ;
+}
+
+.post-content {
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+
+.user-profile span {
+    font-size: 13px;
+    color: #9a9a9a;
+}
+
+.post-text {
+    color: #9a9a9a;
+    margin: 15px 5px;
+    font-size: 15px;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.post-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-icon div img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.activity-icon div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.edit-icon div img {
+    height: 19px;
+    width: 22.799999237060547px;
+    left: 3px;
+    top: 2px;
+    border-radius: 0px;
+}
+
+.edit-icon div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.edit-pen {
+    border-bottom: 1px solid #363C4E;
+}
+
+.post {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+}
+
+footer {
+    background: #3f3f56;
+    width: 100%;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.foot-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 76px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+
+}
+
+.foot-text li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer-bottom {
+    display: inline-flex;
+
+}
+
+.footer-bottom p {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 76px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}

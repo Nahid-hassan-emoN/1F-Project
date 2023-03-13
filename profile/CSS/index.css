@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Mulish&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #efefef;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #dfe3eaf5;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav a {
+    cursor: pointer;
+}
+
+.logo {
+    width: 180px;
+    margin-right: 45px;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.search-box {
+    background: rgb(255, 255, 255);
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search-box img {
+    width: 18px;
+}
+
+.search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+
+}
+
+.nav-right a {
+    text-decoration: none;
+    border: 1px solid #969090;
+
+    margin-right: 20px;
+}
+
+.nav-right {}
+
+.teacher_login {
+    padding: 5px;
+    color: #4E4C4C;
+    border-radius: 5px;
+    font-size: 12px;
+
+
+}
+
+.student_login {
+    padding: 5px;
+    color: #4E4C4C;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+.log_in {
+    color: #fff;
+    background: #1DD7C0;
+    width: 72px;
+    height: 41px;
+    position: relative;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+
+}
+
+.bg {
+    width: 100%;
+    width: 1443px;
+    height: 581px;
+    left: 0px;
+    top: 85px;
+
+    background: #EBECED;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.h1-tag{
+    margin-top: 50px;
+
+}
+p{
+    margin-top: 50px;
+}
+.half-width img {
+    width: 120%;
+
+}
+.top-banner{
+    background-image: url("/images/bg.png");
+}
+
+section{
+    height: 400px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .h1-text{
+    text-align: center;
+    margin: 15px;
+  }
+  .columns:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
